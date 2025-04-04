@@ -1,5 +1,3 @@
-### `_posts/2025-04-03-introducing-ldisimulator.md`
-```markdown
 ---
 layout: post
 title: "Introducing LDISimulator: A Tool for Bond Portfolio Analysis"

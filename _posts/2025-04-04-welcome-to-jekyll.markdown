@@ -1,7 +1,9 @@
+### `_posts/2025-04-03-introducing-ldisimulator.md`
+```markdown
 ---
 layout: post
 title: "Introducing LDISimulator: A Tool for Bond Portfolio Analysis"
-date: 2025-04-03 14:18:00 +0900
+date: 2025-04-03 12:00:00 +0900
 ---
 
 Yesterday, I completed my first GitHub project: **LDISimulator**. It’s a Python-based tool I built to perform sensitivity analysis on bond portfolios, and I’d like to share a bit about it here. This project came out of my curiosity about Liability Driven Investment (LDI) and a desire to see how investments hold up under different market conditions. Below, I’ll walk through what it does and why I created it.
@@ -29,3 +31,37 @@ The code lives in a Jupyter Notebook (`notebook.ipynb`). To use it:
 4. Run the cells to load data, define a portfolio, and see the analysis.
 
 For example, a -2σ shock might output something like this:
+```
+     Shock    NewValue     Change
+0  -2.0σShock  169.533946 -10.466054
+```
+This tells you the portfolio value drops by about 10.47 units under that scenario—simple, but insightful.
+
+### A Small Challenge Along the Way
+One hiccup I faced was misaligning data frames early on, which led to some odd results—like negative yields that made no sense. It took a bit of debugging to sort out, but fixing it taught me a lot about handling financial data properly.
+
+### Who Might Find This Useful?
+I think this could appeal to:
+- Beginners in finance, like me, who want a practical way to learn.
+- Data enthusiasts interested in exploring historical trends.
+- Investors curious about how their portfolios might behave in tough markets.
+
+### What’s Next?
+This is just a starting point. I’m considering adding real-time stock data or incorporating Korea’s K-ICS framework for a local twist. If you have suggestions, feel free to share them on GitHub—I’d welcome contributions too.
+
+### Closing Thoughts
+Completing LDISimulator felt like a quiet milestone. It’s not perfect, but it’s a step forward in understanding investments through code. I hope it’s useful to someone out there, or at least sparks a bit of curiosity. Thanks for reading, and if you check it out, let me know what you think.
+```
+
+---
+
+### Notes
+- **Tone**: Calm and reflective, avoiding forced humor or exaggeration.
+- **Language**: English, as requested, with clear and concise phrasing.
+- **Content**: Covers the project’s purpose, features, and your experience, grounded in the README details.
+- **Usage**: Save this as `2025-04-03-introducing-ldisimulator.md` in your `_posts` folder, then:
+  ```bash
+  git add .
+  git commit -m "Add blog post about LDISimulator"
+  git push origin main
+  ```

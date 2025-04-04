@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Kim Nam-Il!  
+I graduated from Sogang University with a degree in Economics and earned an M.Sc. in Financial Engineering from KAIST.  
+I’ve worked at KBS (Korean Broadcasting System) and WorldQuant, a subsidiary of Millennium Management.  
+Currently, I’m interested in data science, quantitative analysis, and artificial intelligence.  
+Feel free to contact me at [inflow-wallop0l@icloud.com](mailto:inflow-wallop0l@icloud.com).
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+You can find the source code at GitHub:
+[jekyll](https://github.com/Kim-Nam-Il)
